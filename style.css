@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, sans-serif;
+    background-color: lightcoral;
+    color: white;
+}
+.links {
+    font-size: 40px;
+}
+
+.links .rat {
+    color: blue;
+    font-size: 12px;
+}
+
+#veg {
+    color: green;
+    font-family: "Times New Roman", serif;
+    font-size: 40px;
+}
+.back {
+    color: green;
+}
