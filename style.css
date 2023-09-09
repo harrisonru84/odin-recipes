@@ -1,22 +1,49 @@
 * {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     background-color: lightcoral;
     color: white;
-}
-.links {
-    font-size: 40px;
+    /* border: 1px solid black; */
 }
 
-.links .rat {
-    color: blue;
-    font-size: 12px;
+body {
+    width: 50%;
+    margin: 0 auto 100px;
 }
 
-#veg {
-    color: green;
-    font-family: "Times New Roman", serif;
-    font-size: 40px;
+.home-images {
+    display: flex;
+    justify-content: space-between;
 }
-.back {
-    color: green;
+
+img {
+    display: inline-block;
+    width: 32%;
+}
+
+img.recipe {
+    width: 100%;
+}
+
+.home-links {
+    margin: 25px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: white;
+    color: lightcoral;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    flex-shrink: 1;
+}
+
+button:hover {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
 }
