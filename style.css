@@ -87,3 +87,11 @@ a:hover {
 ul, ol, p {
     line-height: 1.5;
 }
+
+ul li {
+    margin-bottom: 8px;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
